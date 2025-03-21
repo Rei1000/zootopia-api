@@ -128,4 +128,10 @@ if __name__ == "__main__":
             print("Update completed! Open animals.html in your browser.")
             break
         else:
-            print(f"Error: No data found for '{animal_name}'. Please try searching for another animal or type 'q' to exit.")
+            # Generate HTML error message
+            error_html = f'<h2>The animal "{animal_name}" doesn\'t exist.</h2>'
+            html_content = load_template("animals_template.html")
+            html_content = replace_placeholder(html_content, error_html)
+            save_html("animals.html", html_content)
+
+            print(f'The animal "{animal_name}" does not exist. An error message was written to animals.html.')
