@@ -8,7 +8,7 @@ This project is a simple web generator that fetches animal information from an e
 ### Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/Rei1000/zootopia-api
+   git clone https://github.com/Rei1000/zootopia-api.git
    cd zootopia-api
    ```
 2. Install required dependencies:
@@ -53,7 +53,7 @@ Dieses Projekt ist ein einfacher Web-Generator, der Tierinformationen von einer 
 ### Installation
 1. Klone dieses Repository:
    ```sh
-   git clone https://github.com/Rei1000/zootopia-api
+   git clone https://github.com/Rei1000/zootopia-api.git
    cd zootopia-api
    ```
 2. Installiere die Abhängigkeiten:
