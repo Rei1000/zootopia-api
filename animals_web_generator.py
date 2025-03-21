@@ -1,36 +1,10 @@
 import json
-import requests
+import data_fetcher
 import sys
 
 # API Configuration
 API_KEY = "D8tjZCwFnSWBxSiTcqomLg==SacsubYILq9gVS5A"
 BASE_URL = "https://api.api-ninjas.com/v1/animals"
-
-
-def fetch_animal_data(animal_name):
-    """
-    Fetches animal data from the API based on the given animal name.
-
-    Args:
-        animal_name (str): The name of the animal to search for.
-
-    Returns:
-        list or None: A list of animal data if found, otherwise None.
-    """
-    headers = {"X-Api-Key": API_KEY}
-    url = f"{BASE_URL}?name={animal_name}"
-
-    response = requests.get(url, headers=headers)
-
-    if response.status_code == 200:
-        data = response.json()
-        if not data:
-            print(f"Warning: No data found for '{animal_name}'.")
-            return None
-        return data
-    else:
-        print(f"Error: API request failed with status code {response.status_code}, {response.text}")
-        return None
 
 
 def save_to_json(data, filename="animals_data.json"):
@@ -114,7 +88,7 @@ if __name__ == "__main__":
             print("Error: Please enter a valid animal name.")
             continue
 
-        data = fetch_animal_data(animal_name)
+        data = data_fetcher.fetch_data(animal_name)
         if data:
             save_to_json(data)
 
