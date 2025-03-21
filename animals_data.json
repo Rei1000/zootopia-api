@@ -1,46 +1,6 @@
 [
     {
-        "name": "Cow",
-        "taxonomy": {
-            "kingdom": "Animalia",
-            "phylum": "Chordata",
-            "class": "Mammalia",
-            "order": "Artiodactyla",
-            "family": "Bovidae",
-            "genus": "Bos",
-            "scientific_name": "Bos Taurus"
-        },
-        "locations": [
-            "Africa",
-            "Asia",
-            "Central-America",
-            "Eurasia",
-            "Europe",
-            "North-America",
-            "Oceania",
-            "South-America"
-        ],
-        "characteristics": {
-            "main_prey": "Grass, Seeds, Flowers",
-            "distinctive_feature": "Thick leathery skin and complex digestive system",
-            "habitat": "Forest and grassland",
-            "predators": "Human, Bears, Wolves",
-            "diet": "Herbivore",
-            "average_litter_size": "1",
-            "lifestyle": "Herd",
-            "favorite_food": "Grass",
-            "type": "Mammal",
-            "slogan": "There are nearly 1.5 million worldwide!",
-            "color": "BrownBlackWhite",
-            "skin_type": "Leather",
-            "top_speed": "25 mph",
-            "lifespan": "12 - 20 years",
-            "weight": "400kg - 800kg (881lbs - 1,760lbs)",
-            "length": "1.5m - 1.8m (5ft - 6ft)"
-        }
-    },
-    {
-        "name": "Moscow Watchdog",
+        "name": "Affenpinscher",
         "taxonomy": {
             "kingdom": "Animalia",
             "phylum": "Chordata",
@@ -48,50 +8,64 @@
             "order": "Carnivora",
             "family": "Canidae",
             "genus": "Canis",
-            "scientific_name": "Canis lupus"
+            "scientific_name": "Canis Lupus"
         },
         "locations": [
-            "Eurasia"
+            "Europe"
         ],
         "characteristics": {
-            "temperament": "Gentle and powerful",
+            "distinctive_feature": "Dark wiry-haired body and dark eyes",
+            "temperament": "Alert and inquisitive",
+            "training": "Medium",
             "diet": "Omnivore",
-            "color": "RedBlackWhite",
-            "skin_type": "Hair",
-            "lifespan": "9 to 11 years",
-            "weight": "150 lbs"
+            "average_litter_size": "3",
+            "type": "Terrier",
+            "common_name": "Affenpinscher",
+            "slogan": "First bred in 17th century Germany!",
+            "group": "Dog",
+            "color": "GreyBlack",
+            "skin_type": "Hair"
         }
     },
     {
-        "name": "Steller\u2019s Sea Cow",
+        "name": "Giraffe",
         "taxonomy": {
             "kingdom": "Animalia",
             "phylum": "Chordata",
             "class": "Mammalia",
-            "order": "Sirenia",
-            "family": "Dugongidae",
-            "genus": "Hydrodamalis",
-            "scientific_name": "Hydrodamalis Gigas"
+            "order": "Artiodactyla",
+            "family": "Giraffidae",
+            "genus": "Giraffa",
+            "scientific_name": "Giraffa camelopardalis"
         },
         "locations": [
-            "Ocean"
+            "Africa"
         ],
         "characteristics": {
-            "main_prey": "Sea Grasses, Algae, Flowers",
-            "distinctive_feature": "Enormous body size and toothless mouths",
-            "habitat": "Arctic Tundra",
-            "predators": "Large sharks and humans",
+            "prey": "Leaves, Fruits, Seeds",
+            "name_of_young": "Calf",
+            "group_behavior": "Herd",
+            "estimated_population_size": "Stable",
+            "biggest_threat": "Hunting and habitat loss",
+            "most_distinctive_feature": "Elongated neck and unique patterned coat",
+            "gestation_period": "457 days",
+            "habitat": "Open woodland and savannah",
             "diet": "Herbivore",
             "average_litter_size": "1",
-            "lifestyle": "Herd",
-            "favorite_food": "Sea Grasses",
-            "type": "Mammal",
-            "slogan": "Hunted to extinction in 17 years!",
-            "color": "BrownGreyBlack",
-            "skin_type": "Smooth",
-            "lifespan": "50 - 80 years",
-            "weight": "8000kg (8.8tons)",
-            "length": "8m - 9m (26ft - 30ft)"
+            "lifestyle": "Diurnal",
+            "common_name": "Giraffe",
+            "number_of_species": "9",
+            "location": "sub-Saharan Africa",
+            "slogan": "Long, black tongue can grow to 18 inches long!",
+            "group": "Mammal",
+            "color": "BrownRedBlackWhiteTan",
+            "skin_type": "Hair",
+            "top_speed": "30 mph",
+            "lifespan": "20 - 25 years",
+            "weight": "550kg - 1,930kg (1,200lbs - 4,200lbs)",
+            "height": "4m - 6m (13ft - 20ft)",
+            "age_of_sexual_maturity": "3.5 - 4.5 years",
+            "age_of_weaning": "13 months"
         }
     }
 ]

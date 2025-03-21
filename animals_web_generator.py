@@ -2,10 +2,6 @@ import json
 import data_fetcher
 import sys
 
-# API Configuration
-API_KEY = "D8tjZCwFnSWBxSiTcqomLg==SacsubYILq9gVS5A"
-BASE_URL = "https://api.api-ninjas.com/v1/animals"
-
 
 def save_to_json(data, filename="animals_data.json"):
     """

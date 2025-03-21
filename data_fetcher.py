@@ -1,8 +1,14 @@
 import requests
 import json
+import os
+from dotenv import load_dotenv
+# Load environment variables from .env filepip
+load_dotenv()
+
+# Get API Key from environment variables
+API_KEY = os.getenv("API_KEY")
 
 # API Configuration
-API_KEY = "D8tjZCwFnSWBxSiTcqomLg==SacsubYILq9gVS5A"
 BASE_URL = "https://api.api-ninjas.com/v1/animals"
 
 def fetch_data(animal_name):
